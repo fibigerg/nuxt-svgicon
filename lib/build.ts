@@ -77,7 +77,7 @@ export default function build(options: Options): Promise<void> {
         let viewBox = getViewBox(result);
 
         // add pid attr, for css
-        data = addPid(data);
+        // data = addPid(data);
 
         // rename fill and stroke. (It can restore in vue-svgicon)
         if(options.renameStyles) {
